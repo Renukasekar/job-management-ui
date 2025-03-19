@@ -36,7 +36,7 @@ function App() {
     search: "",
     location: null,
     jobType: null,
-    salaryRange: [100000, 1000000],
+    salaryRange: [100000, 5000000],
   })
 
   const debounceRef = useRef(null);
