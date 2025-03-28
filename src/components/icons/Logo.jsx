@@ -2,50 +2,18 @@ import React from 'react'
 
 export const Logo = () => {
     return (
-        <svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24.33 5.41968L24.8852 23.3961L39.6353 13.9324L24.33 5.41968Z" fill="#333333" />
-            <path d="M39.5308 32.7551V13.8619L18.395 27.4678V45.3387H19.1064" fill="#494949" />
-            <path d="M1.18878 32.0419L14.7153 23.3629L15.2245 39.8485L1.18878 32.0419Z" fill="url(#paint0_linear_2_114)" />
-            <path d="M1.18878 32.0419L14.7153 23.3629L15.2245 39.8485L1.18878 32.0419Z" fill="url(#paint1_linear_2_114)" />
-            <path d="M1.18878 32.0419L14.7153 23.3629L15.2245 39.8485L1.18878 32.0419Z" stroke="url(#paint2_linear_2_114)" stroke-width="0.846154" />
-            <path d="M1.18878 32.0419L14.7153 23.3629L15.2245 39.8485L1.18878 32.0419Z" stroke="url(#paint3_linear_2_114)" stroke-width="0.846154" />
-            <path d="M0.469055 13.2451V32.1381L21.6051 18.5501V0.661621H20.8936" fill="url(#paint4_linear_2_114)" />
-            <path d="M0.469055 13.2451V32.1381L21.6051 18.5501V0.661621H20.8936" fill="url(#paint5_linear_2_114)" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 410 404" fill="none">
+            <path d="M399.641 59.5246L215.643 388.545C211.844 395.338 202.084 395.378 198.228 388.618L10.5817 59.5563C6.38087 52.1896 12.6802 43.2665 21.0281 44.7586L205.223 77.6824C206.398 77.8924 207.601 77.8904 208.776 77.6763L389.119 44.8058C397.439 43.2894 403.768 52.1434 399.641 59.5246Z" fill="url(#paint0_linear)" />
+            <path d="M292.965 1.5744L156.801 28.2552C154.563 28.6937 152.906 30.5903 152.771 32.8664L144.395 174.33C144.198 177.662 147.258 180.248 150.51 179.498L188.42 170.749C191.967 169.931 195.172 173.055 194.443 176.622L183.18 231.775C182.422 235.487 185.907 238.661 189.532 237.56L212.947 230.446C216.577 229.344 220.065 232.527 219.297 236.242L201.398 322.875C200.278 328.294 207.486 331.249 210.492 326.603L212.5 323.5L323.454 102.072C325.312 98.3645 322.108 94.137 318.036 94.9228L279.014 102.454C275.347 103.161 272.227 99.746 273.262 96.1583L298.731 7.86689C299.767 4.27314 296.636 0.855181 292.965 1.5744Z" fill="url(#paint1_linear)" />
             <defs>
-                <linearGradient id="paint0_linear_2_114" x1="0.36496" y1="31.5921" x2="15.6704" y2="31.5921" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#00AAFF" />
-                    <stop offset="1" stop-color="#8636F8" />
+                <linearGradient id="paint0_linear" x1="6.00017" y1="32.9999" x2="235" y2="344" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#41D1FF" />
+                    <stop offset="1" stop-color="#BD34FE" />
                 </linearGradient>
-                <linearGradient id="paint1_linear_2_114" x1="8.01768" y1="40.5806" x2="8.01768" y2="22.6037" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.6" />
-                    <stop offset="0.1085" stop-color="white" stop-opacity="0.455" />
-                    <stop offset="0.4332" stop-color="white" stop-opacity="0.216" />
-                    <stop offset="0.6639" stop-color="white" stop-opacity="0.06" />
-                    <stop offset="0.775" stop-color="white" stop-opacity="0" />
-                </linearGradient>
-                <linearGradient id="paint2_linear_2_114" x1="0.36496" y1="31.5921" x2="15.6704" y2="31.5921" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#00AAFF" />
-                    <stop offset="1" stop-color="#8636F8" />
-                </linearGradient>
-                <linearGradient id="paint3_linear_2_114" x1="8.01768" y1="40.5806" x2="8.01768" y2="22.6037" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.6" />
-                    <stop offset="0.1085" stop-color="white" stop-opacity="0.455" />
-                    <stop offset="0.4332" stop-color="white" stop-opacity="0.216" />
-                    <stop offset="0.6639" stop-color="white" stop-opacity="0.06" />
-                    <stop offset="0.775" stop-color="white" stop-opacity="0" />
-                </linearGradient>
-                <linearGradient id="paint4_linear_2_114" x1="-0.407398" y1="20.0785" x2="22.8932" y2="18.3851" gradientUnits="userSpaceOnUse">
-                    <stop offset="0.0226" stop-color="#8636F8" />
-                    <stop offset="0.3484" stop-color="#F020B3" />
-                    <stop offset="0.6742" stop-color="#F8475E" />
-                    <stop offset="1" stop-color="#FF9421" />
-                </linearGradient>
-                <linearGradient id="paint5_linear_2_114" x1="11.0371" y1="32.1381" x2="11.0371" y2="0.661621" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" stop-opacity="0.6" />
-                    <stop offset="0.0842" stop-color="white" stop-opacity="0.455" />
-                    <stop offset="0.367" stop-color="white" stop-opacity="0.216" />
-                    <stop offset="0.568" stop-color="white" stop-opacity="0.06" />
-                    <stop offset="0.6648" stop-color="white" stop-opacity="0" />
+                <linearGradient id="paint1_linear" x1="194.651" y1="8.81818" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFEA83" />
+                    <stop offset="0.0833333" stop-color="#FFDD35" />
+                    <stop offset="1" stop-color="#FFA800" />
                 </linearGradient>
             </defs>
         </svg>
